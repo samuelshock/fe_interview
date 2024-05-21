@@ -12,7 +12,7 @@ export const UseSearchStore = create<SearchType>((set, get) => ({
   tasks: [],
   searchTerm: "",
   setSearchTerm: (searchTerm) => set({ searchTerm }),
-  fetchTasks: async () => {
+  fetchTasks: async (limit: number) => {
     const res = await fetch("http://localhost:3000/data.json")
     const json = await res.json()
     // TODO: change this to call the backend

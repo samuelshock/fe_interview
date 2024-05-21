@@ -34,7 +34,7 @@ export const Screen1 = () => {
   }
 
   useEffect(() => {
-    fetchTasks()
+    fetchTasks(20)
   }, [fetchTasks])
 
   useEffect(() => {
