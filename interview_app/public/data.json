@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Example Title 1",
+    "status": "In Stock",
+    "notes": "Example Notes 1"
+  },
+  {
+    "id": 2,
+    "title": "Example Title 2",
+    "status": "Out Stock",
+    "notes": "Example Notes 2"
+  }
+]
